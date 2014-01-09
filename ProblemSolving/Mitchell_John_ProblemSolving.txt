@@ -54,4 +54,6 @@ Goal A:
 	By pulling 4 socks randomly you can pull:
 		###1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those three 
 		###colors.
-		
+		###With three socks you can get lucky and pull 1 of one color and 2 of another.
+		###You can also get really lucky and pull just two socks of the same color.
+		###4 socks is the only way to guarantee 1 matching pair.
