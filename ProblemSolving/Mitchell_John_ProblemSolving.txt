@@ -78,4 +78,9 @@ Goals:
 	A: Counting from 1 to 10
 	B: Counting from 1 to 100
 	C: Counting from 1 to 1000
+	
+Goal A:
+	Index finger is where 10 will land.
+	###thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, middle 7,
+	###index 8, thumb 9, and index 10.
 		
