@@ -27,3 +27,10 @@ Exchange the parrot for the cat and take the cat to the other side of the river.
 	###You are now going to take the cat across the river
 	###The parrot is alone and the cat will be reunited with the bag of seed on the other
 	###side.
+	
+Leaving the cat and the bag of seed alone return to the original side of the river.
+Pick up the parrot and take him to other other side.
+	###Now the last item from the first side of the river is on the other.
+	###All items have crossed the river and none of have been eaten.
+	
+Say congrats to yourself.
