@@ -86,6 +86,9 @@ Goal A:
 	
 Goal B:
 	100 Lands on the ring finger
+	### Index 10, ring 20, ring 30, index 40, index 50, etc...
+	### This is the bounce complication I referred to above and had to manually count
+	### each number up to 100 to make sure.
 	
 	
 Goal C:
