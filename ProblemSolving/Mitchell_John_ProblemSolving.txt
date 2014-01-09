@@ -51,7 +51,7 @@ Description:
 	
 	
 Goal A:
-	The smallest number of socks selected to guarentee a matching pair is 4
+	The smallest number of socks selected to guarantee a matching pair is 4
 		###1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those  
 		###three colors.
 		###With three socks you can get lucky and pull 1 of one color and 2 of another.
@@ -61,4 +61,8 @@ Goal A:
 Goal B:
 	The smallest amount of socks selected that guarantee a matching pair of each color is 
 	18.
+		###18 socks being selected is the smallest number because you could choose all 10
+		###black socks and all 6 brown socks.
+			###This leaves all white socks available to which you only need 2 to make a 
+			###matching pair.
 		
