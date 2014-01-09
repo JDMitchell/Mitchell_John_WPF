@@ -11,5 +11,11 @@ Complications: The cat eating the parrot and the parrot eating the bag
 	of seed.
 Goal: To successfully get the cat, the parrot and the bag of seed across the river.
 
-Start: Acquire the parrot and take him across the river first.
-	This puts the cat and the bag of seed alone and the cat wont eat the seed.
+Start: 
+	Acquire the parrot and take him across the river first.
+	###This puts the cat and the bag of seed alone and the cat wont eat the seed.
+	
+Return to the cat and the bag of seed.
+Take the bag of seed across to the river.
+	###This leaves the cat alone
+	###The bag of seed and the parrot are now on the same side
