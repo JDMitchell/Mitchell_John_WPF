@@ -23,3 +23,7 @@ Take the bag of seed across to the river.
 Grab the parrot a second time and take him back across the river.
 	###This makes sure the parrot doesn't eat the bag of seed.
 	
+Exchange the parrot for the cat and take the cat to the other side of the river.
+	###You are now going to take the cat across the river
+	###The parrot is alone and the cat will be reunited with the bag of seed on the other
+	###side.
