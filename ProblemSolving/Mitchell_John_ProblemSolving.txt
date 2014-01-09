@@ -5,95 +5,108 @@
 
 A Cat, a parrot and a Bag of Seed:
 
-Problem: The problem is getting the cat, the parrot and the bag of seed across the river 
-	without complications.
-Complications: The cat eating the parrot and the parrot eating the bag
-	of seed.
-Goal: To successfully get the cat, the parrot and the bag of seed across the river.
+	Problem: The problem is getting the cat, the parrot and the bag of seed across the  
+		river without complications.
+	Complications: The cat eating the parrot and the parrot eating the bag
+		of seed.
+	Goal: To successfully get the cat, the parrot and the bag of seed across the river.
 
-Start: 
-	Acquire the parrot and take him across the river first.
-	### This puts the cat and the bag of seed alone and the cat wont eat the seed.
+	START: 
+		Acquire the parrot and take him across the river first.
+		### This puts the cat and the bag of seed alone and the cat wont eat the seed.
 	
-Return to the cat and the bag of seed.
-Take the bag of seed across to the river.
-	### This leaves the cat alone
-	### The bag of seed and the parrot are now on the same side
+	Return to the cat and the bag of seed.
+	Take the bag of seed across to the river.
+		### This leaves the cat alone.
+		
+		### The bag of seed and the parrot are now on the same side
 	
-Grab the parrot a second time and take him back across the river.
-	### This makes sure the parrot doesn't eat the bag of seed.
+	Grab the parrot a second time and take him back across the river.
+		### This makes sure the parrot doesn't eat the bag of seed.
 	
-Exchange the parrot for the cat and take the cat to the other side of the river.
-	### You are now going to take the cat across the river
-	### The parrot is alone and the cat will be reunited with the bag of seed on the other
-	### side.
+	Exchange the parrot for the cat and take the cat to the other side of the river.
+		### You are now going to take the cat across the river.
+		
+		### The parrot is alone and the cat will be reunited with the bag of seed on the 
+		### other side.
 	
-Leaving the cat and the bag of seed alone return to the original side of the river.
-Pick up the parrot and take him to other other side.
-	### Now the last item from the first side of the river is on the other.
-	### All items have crossed the river and none of have been eaten.
+	Leaving the cat and the bag of seed alone return to the original side of the river.
+	Pick up the parrot and take him to other other side.
+		### Now the last item from the first side of the river is on the other.
+		
+		### All items have crossed the river and none of have been eaten.
 	
-Say congrats to yourself.
-END.
+	Say congrats to yourself.
+	END.
 
 
 Sock in the Dark:
 
-Problem: There are 20 individual socks in a drawer.
-Complication: You cannot view your selection until it is finished.
-Goals: 
-	A: Match one pair.
-	B: Match one pair of each color.
+	Problem: There are 20 individual socks in a drawer.
+	Complication: You cannot view your selection until it is finished.
+	Goals: 
+		A: Match one pair.
+		B: Match one pair of each color.
 	
-Description:
-	20 Sock, 10 black socks, 6 brown socks, 4 white socks.
-	Have to choose 1 sock at a time in the dark.
+	Description:
+		20 Sock, 10 black socks, 6 brown socks, 4 white socks.
+		Have to choose 1 sock at a time in the dark.
 	
 	
-Goal A:
-	The smallest number of socks selected to guarantee a matching pair is 4
-		### 1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those  
-		### three colors.
-		### With three socks you can get lucky and pull 1 of one color and 2 of another.
-		### You can also get really lucky and pull just two socks of the same color.
-		### 4 socks is the only way to guarantee 1 matching pair.
+	Goal A:
+		The smallest number of socks selected to guarantee a matching pair is 4
+			### 1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of   
+			### those three colors.
+			
+			### With three socks you can get lucky and pull 1 of one color and 2 of 
+			### another.
+			
+			### You can also get really lucky and pull just two socks of the same color.
+			
+			### 4 socks is the only way to guarantee 1 matching pair.
 		
-Goal B:
-	The smallest amount of socks selected that guarantee a matching pair of each color is 
-	18.
-		### 18 socks being selected is the smallest number because you could choose all 10
-		### black socks and all 6 brown socks.
-			### This leaves all white socks available to which you only need 2 to make a 
-			### matching pair.
-		### It can be done with as little as 6 socks
-			### This is relying heavily on luck and that you will be choosing 2 of each color.
+	Goal B:
+		The smallest amount of socks selected that guarantee a matching pair of each color
+		is 18.
+			### 18 socks being selected is the smallest number because you could choose 
+			### all 10 black socks and all 6 brown socks.
+				### This leaves all white socks available to which you only need 2 to make 
+				### a matching pair.
+			### It can be done with as little as 6 socks
+				### This is relying heavily on luck and that you will be choosing 2 of 
+				### each color.
 			
 			
 Predicting Fingers:
-Problem: Counting on fingers in an alternating manner going from left to right.
-	E.G. thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, etc... 
-Complication: The numbers bounce on the index and ring fingers.
-	E.G. index 10, Ring 20, Ring30, index 40, index 50, etc... 
-Goals:
-	A: Counting from 1 to 10
-	B: Counting from 1 to 100
-	C: Counting from 1 to 1000
+
+	Problem: Counting on fingers in an alternating manner going from left to right.
+		E.G. thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, 
+			ring finger 6, etc... 
+	Complication: The numbers bounce on the index and ring fingers.
+		E.G. index 10, Ring 20, Ring30, index 40, index 50, etc... 
+	Goals:
+		A: Counting from 1 to 10
+		B: Counting from 1 to 100
+		C: Counting from 1 to 1000
 	
-Goal A:
-	Index finger is where 10 will land.
-	### thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, middle 7,
-	### index 8, thumb 9, and index 10.
+	Goal A:
+		Index finger is where 10 will land.
+		### thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, 
+		### middle 7, index 8, thumb 9, and index 10.
 	
-Goal B:
-	100 Lands on the ring finger
-	### Index 10, ring 20, ring 30, index 40, index 50, etc...
-	### This is the bounce complication I referred to above and had to manually count
-	### each number up to 100 to make sure.
+	Goal B:
+		100 Lands on the ring finger
+		### Index 10, ring 20, ring 30, index 40, index 50, etc...
+		
+		### This is the bounce complication I referred to above and had to manually count
+		### each number up to 100 to make sure.
 	
 	
-Goal C:
-	1000 Lands on index finger
-	### ring 100, index 200, ring 300, index 400, etc...
-	### Counted counting the 10 count theory up to 300.
-	### Learned that now when counting by hundreds it returns back and forth normally
-	### between index and ring finger.
+	Goal C:
+		1000 Lands on index finger
+		### ring 100, index 200, ring 300, index 400, etc...
+		
+		### Counted counting the 10 count theory up to 300.
+		
+		### Learned that now when counting by hundreds it returns back and forth normally
+		### between index and ring finger.
