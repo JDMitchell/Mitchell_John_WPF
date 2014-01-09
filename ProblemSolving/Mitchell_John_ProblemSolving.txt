@@ -35,3 +35,12 @@ Pick up the parrot and take him to other other side.
 	
 Say congrats to yourself.
 END.
+
+
+Sock in the Dark:
+
+Problem: There are 20 individual socks in a drawer.
+Complication: You cannot view your selection until it is finished.
+Goals: 
+	A: Match one pair.
+	B: Match one pair of each color.
