@@ -83,4 +83,11 @@ Goal A:
 	Index finger is where 10 will land.
 	###thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, middle 7,
 	###index 8, thumb 9, and index 10.
+	
+Goal B:
+	100 Lands on the ring finger
+	
+	
+Goal C:
+	1000 Lands on index finger
 		
