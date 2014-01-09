@@ -13,25 +13,25 @@ Goal: To successfully get the cat, the parrot and the bag of seed across the riv
 
 Start: 
 	Acquire the parrot and take him across the river first.
-	###This puts the cat and the bag of seed alone and the cat wont eat the seed.
+	### This puts the cat and the bag of seed alone and the cat wont eat the seed.
 	
 Return to the cat and the bag of seed.
 Take the bag of seed across to the river.
-	###This leaves the cat alone
-	###The bag of seed and the parrot are now on the same side
+	### This leaves the cat alone
+	### The bag of seed and the parrot are now on the same side
 	
 Grab the parrot a second time and take him back across the river.
-	###This makes sure the parrot doesn't eat the bag of seed.
+	### This makes sure the parrot doesn't eat the bag of seed.
 	
 Exchange the parrot for the cat and take the cat to the other side of the river.
-	###You are now going to take the cat across the river
-	###The parrot is alone and the cat will be reunited with the bag of seed on the other
-	###side.
+	### You are now going to take the cat across the river
+	### The parrot is alone and the cat will be reunited with the bag of seed on the other
+	### side.
 	
 Leaving the cat and the bag of seed alone return to the original side of the river.
 Pick up the parrot and take him to other other side.
-	###Now the last item from the first side of the river is on the other.
-	###All items have crossed the river and none of have been eaten.
+	### Now the last item from the first side of the river is on the other.
+	### All items have crossed the river and none of have been eaten.
 	
 Say congrats to yourself.
 END.
@@ -52,21 +52,21 @@ Description:
 	
 Goal A:
 	The smallest number of socks selected to guarantee a matching pair is 4
-		###1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those  
-		###three colors.
-		###With three socks you can get lucky and pull 1 of one color and 2 of another.
-		###You can also get really lucky and pull just two socks of the same color.
-		###4 socks is the only way to guarantee 1 matching pair.
+		### 1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those  
+		### three colors.
+		### With three socks you can get lucky and pull 1 of one color and 2 of another.
+		### You can also get really lucky and pull just two socks of the same color.
+		### 4 socks is the only way to guarantee 1 matching pair.
 		
 Goal B:
 	The smallest amount of socks selected that guarantee a matching pair of each color is 
 	18.
-		###18 socks being selected is the smallest number because you could choose all 10
-		###black socks and all 6 brown socks.
-			###This leaves all white socks available to which you only need 2 to make a 
-			###matching pair.
-		###It can be done with as little as 6 socks
-			###This is relying heavily on luck and that you will be choosing 2 of each color.
+		### 18 socks being selected is the smallest number because you could choose all 10
+		### black socks and all 6 brown socks.
+			### This leaves all white socks available to which you only need 2 to make a 
+			### matching pair.
+		### It can be done with as little as 6 socks
+			### This is relying heavily on luck and that you will be choosing 2 of each color.
 			
 			
 Predicting Fingers:
@@ -81,8 +81,8 @@ Goals:
 	
 Goal A:
 	Index finger is where 10 will land.
-	###thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, middle 7,
-	###index 8, thumb 9, and index 10.
+	### thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, middle 7,
+	### index 8, thumb 9, and index 10.
 	
 Goal B:
 	100 Lands on the ring finger
