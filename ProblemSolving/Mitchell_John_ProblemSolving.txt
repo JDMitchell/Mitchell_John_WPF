@@ -93,4 +93,7 @@ Goal B:
 	
 Goal C:
 	1000 Lands on index finger
-		
+	### ring 100, index 200, ring 300, index 400, etc...
+	### Counted counting the 10 count theory up to 300.
+	### Learned that now when counting by hundreds it returns back and forth normally
+	### between index and ring finger.
