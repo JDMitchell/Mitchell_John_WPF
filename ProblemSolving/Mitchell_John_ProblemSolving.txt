@@ -10,3 +10,6 @@ Problem: The problem is getting the cat, the parrot and the bag of seed across t
 Complications: The cat eating the parrot and the parrot eating the bag
 	of seed.
 Goal: To successfully get the cat, the parrot and the bag of seed across the river.
+
+Start: Acquire the parrot and take him across the river first.
+	This puts the cat and the bag of seed alone and the cat wont eat the seed.
