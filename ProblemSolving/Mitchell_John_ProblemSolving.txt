@@ -3,3 +3,10 @@
 ### 01/08/2014
 ### Problem Solving
 
+A Cat, a parrot and a Bag of Seed:
+
+Problem: The problem is getting the cat, the parrot and the bag of seed across the river 
+	without complications.
+Complications: The cat eating the parrot and the parrot eating the bag
+	of seed.
+Goal: To successfully get the cat, the parrot and the bag of seed across the river.
