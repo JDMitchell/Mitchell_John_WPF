@@ -48,3 +48,10 @@ Goals:
 Description:
 	20 Sock, 10 black socks, 6 brown socks, 4 white socks.
 	Have to choose 1 sock at a time in the dark.
+	
+	
+Goal A:
+	By pulling 4 socks randomly you can pull:
+		###1 black, 1 brown and 1 white sock. That leaves 1 sock to be either of those three 
+		###colors.
+		
