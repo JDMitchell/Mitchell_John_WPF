@@ -67,4 +67,15 @@ Goal B:
 			###matching pair.
 		###It can be done with as little as 6 socks
 			###This is relying heavily on luck and that you will be choosing 2 of each color.
+			
+			
+Predicting Fingers:
+Problem: Counting on fingers in an alternating manner going from left to right.
+	E.G. thumb 1, index 2, middle finger 3, ring finger 4, Pinky 5, ring finger 6, etc... 
+Complication: The numbers bounce on the index and ring fingers.
+	E.G. index 10, Ring 20, Ring30, index 40, index 50, etc... 
+Goals:
+	A: Counting from 1 to 10
+	B: Counting from 1 to 100
+	C: Counting from 1 to 1000
 		
