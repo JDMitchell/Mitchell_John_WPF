@@ -65,4 +65,6 @@ Goal B:
 		###black socks and all 6 brown socks.
 			###This leaves all white socks available to which you only need 2 to make a 
 			###matching pair.
+		###It can be done with as little as 6 socks
+			###This is relying heavily on luck and that you will be choosing 2 of each color.
 		
