@@ -44,3 +44,7 @@ Complication: You cannot view your selection until it is finished.
 Goals: 
 	A: Match one pair.
 	B: Match one pair of each color.
+	
+Description:
+	20 Sock, 10 black socks, 6 brown socks, 4 white socks.
+	Have to choose 1 sock at a time in the dark.
