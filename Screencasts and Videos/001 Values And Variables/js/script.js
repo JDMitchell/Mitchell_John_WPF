@@ -12,6 +12,8 @@
 var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3...
 //first entry "Kermit" has an index of '0'
 
-muppetNames[1] = "Rizzo";
+muppetNames[1] = "Rizzo";		//Makes a change to Index #1
+muppetNames[2] = "Fozzy";		//Adds Index 3 to Array
 
-console.log(muppetNames[1]);
+console.log(muppetNames[2]);	//Lets me view a specific Index
+
