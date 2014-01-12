@@ -4,14 +4,12 @@
 //Storage container(variable) = Value
 //Declaration needed only once
 //You must declare before you define!!!
+//Boolean are only 'true' or 'false'
+//Arrays will be enclosed in "[]" brackets
 
-var age;	//Declaration of the variable
 
-var isStudent = false;	//Boolean variable
 
-var firstName = "John";
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
+//first entry "Kermit" has an index of '0'
 
-//  '\' is an escape character. It allows the apostrophe characater(') to be displated during a string
-//	'\n' is a command that tells the script to put the following on a new line.
-//
-var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
+console.log(muppetNames);
