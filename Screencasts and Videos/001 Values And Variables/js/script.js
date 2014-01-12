@@ -12,4 +12,4 @@
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
 //first entry "Kermit" has an index of '0'
 
-console.log(muppetNames);
+console.log(muppetNames[0]);
