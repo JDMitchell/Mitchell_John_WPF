@@ -9,7 +9,7 @@
 
 
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3...
 //first entry "Kermit" has an index of '0'
 
-console.log(muppetNames[1]);
+console.log(muppetNames[2]);
