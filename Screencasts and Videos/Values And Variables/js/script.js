@@ -1,1 +1,5 @@
-alert("This is in my js file");
+			// Javascript
+
+var yearBorn = 1955;
+
+console.log(yearBorn);
