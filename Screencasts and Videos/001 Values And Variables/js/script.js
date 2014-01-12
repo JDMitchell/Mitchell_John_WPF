@@ -6,6 +6,12 @@
 //You must declare before you define!!!
 
 var age;	//Declaration of the variable
-age = 38;	//Defining of the variable
 
-var yearOfBirth = 1970; //Declaration and Defining of the variable
+var isStudent = false;	//Boolean variable
+
+var firstName = "John";
+
+//  '\' is an escape character. It allows the apostrophe characater(') to be displated during a string
+//	'\n' is a command that tells the script to put the following on a new line.
+//
+var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
