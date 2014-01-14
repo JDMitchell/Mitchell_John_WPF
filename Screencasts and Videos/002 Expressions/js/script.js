@@ -38,5 +38,7 @@ console.log(a);
 
 //Prompts and Alerts
 
-var userInput = prompt("Enter your year of birth: ");
+var width = prompt("We are calculating thie area of a rectangle. \n Please enter the width: ");
+var height = prompt("PLease enter the height.");
+
 console.log(userInput);
