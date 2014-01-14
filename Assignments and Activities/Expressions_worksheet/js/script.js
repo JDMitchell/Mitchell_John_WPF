@@ -39,4 +39,46 @@ console.log("You have spent a total of $" + totalBill + " on groceries over 5 we
 
 
 
-//
+//Discounts
+var oringalPrice = 30.00;		//The original price of each item
+var disountPercentage = 0.30;		//The percentage to be discounted
+var description = "Shirt";		//The name of each item
+var salesTax = 0.07;		//The sales tax applied
+
+var noTax = oringalPrice * disountPercentage;		//Item without tax but with discount
+var yesTax = oringalPrice * disountPercentage * salesTax;		//Item with discount and tax
+
+console.log(noTax, yesTax);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
