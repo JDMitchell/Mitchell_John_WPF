@@ -38,4 +38,5 @@ console.log(a);
 
 //Prompts and Alerts
 
-prompt();
+var userInput = prompt("Enter your year of birth: ");
+console.log(userInput);
