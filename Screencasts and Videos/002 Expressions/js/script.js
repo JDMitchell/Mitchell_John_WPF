@@ -1,8 +1,11 @@
-//Expressions - Modulo Operator
+//Expressions - Order of Operations
 
-//Area of a triange is half of the width times the heighth
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 60;
+var quiz4 = 80;
 
-var remainder = 32 % 2;
+//the average is the sum of the items divided by the number of the items
+var average = quiz4 + quiz3 + quiz2 + quiz1;
 
-
-console.log(remainder);
+console.log(average);
