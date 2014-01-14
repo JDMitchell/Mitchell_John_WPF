@@ -13,7 +13,7 @@ console.log("Sparky is " + sparkysAge + " " + "human years old which is " + dogY
 
 //Slice of Pie part 1
 var slicesOfPizza = 8; 		//Slices of pizza per pie 
-var peopleAtParty = 10;		//The total number of people at the party
+var peopleAtParty = 11;		//The total number of people at the party
 var pizzaOrderd = 5;		//The number of pizzas ordered
 var slicesPerPerson = slicesOfPizza * pizzaOrderd / peopleAtParty;		//The amount of slices each person gets
 
@@ -23,10 +23,6 @@ console.log("Each person ate" + " " + slicesPerPerson + " " + "slices of pizza a
 
 
 //Slice of Pie part 2
-peopleAtParty = 10;		//People at party
-slicesOfPizza = 8;		//Slices per Pizza
-pizzaOrderd = 4:		//Pizzas ordered
-slicesPerPerson = slicesOfPizza * pizzaOrderd / peopleAtParty;		//The amount of slices each person gets
 sparkysSlices = pizzaOrderd * slicesOfPizza % peopleAtParty;		//The amount of slices that sparky will get
 
 //The below line displays the amount slices sparky gets.
