@@ -31,8 +31,12 @@ console.log("Sparky got" + " " + sparkysSlices + " " + "slices of pizza.");
 
 
 //Average Shopping Bill
-var shoppingTotals = [10, 12, 15, 25, 23];	 																			//An array that displays the weekly total
+var shoppingTotals = [10, 12, 15, 25, 23];		//An array that displays the weekly total
 var totalBill = shoppingTotals[0] + shoppingTotals[1] + shoppingTotals[2] + shoppingTotals[3] + shoppingTotals[4]		//Generates to total bill for all weeks
-var weeklyAvg = totalBill / 5;
+var weeklyAvg = totalBill / 5;		//Calculaates the average over 5 weeks.
 
 console.log("You have spent a total of $" + totalBill + " on groceries over 5 weeks. That is an average of $" + weeklyAvg +" per week." ); 	//Displays infromation desired
+
+
+
+//
