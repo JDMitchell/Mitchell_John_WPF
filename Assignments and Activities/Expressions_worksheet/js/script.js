@@ -52,34 +52,3 @@ var yesTax = noTax * salesTax + noTax;		//Item with discount and tax
 //below line displays desired output as instructed.
 console.log("Your " + description + " was originally $" + oringalPrice +", but after a " + disountPercentage +"% discount, it is now $" + noTax + " without tax, and $" + yesTax + " with tax.");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
