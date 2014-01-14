@@ -31,6 +31,8 @@ console.log("Sparky got" + " " + sparkysSlices + " " + "slices of pizza.");
 
 
 //Average Shopping Bill
-var shoppingTotals = [10, 12, 15, 25, 23] ;
+var shoppingTotals = [10, 12, 15, 25, 23];	 																			//An array that displays the weekly total
+var totalBill = shoppingTotals[0] + shoppingTotals[1] + shoppingTotals[2] + shoppingTotals[3] + shoppingTotals[4]		//Generates to total bill for all weeks
+
 
 console.log(shoppingTotals);
