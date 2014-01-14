@@ -12,6 +12,6 @@ var areaCode = 863;
 var firstPart = 675;
 var secPart = 1599;
 
-var phoneNo = areaCode + firstPart + secPart;
+var phoneNo = String(areaCode) + String(firstPart) + String(secPart);
 
 console.log(phoneNo);
