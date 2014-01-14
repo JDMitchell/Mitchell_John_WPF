@@ -45,11 +45,12 @@ var disountPercentage = 0.30;		//The percentage to be discounted
 var description = "Shirt";		//The name of each item
 var salesTax = 0.07;		//The sales tax applied
 
-var noTax = oringalPrice * disountPercentage;		//Item without tax but with discount
-var yesTax = oringalPrice * disountPercentage * salesTax;		//Item with discount and tax
+var noTax = oringalPrice - oringalPrice * disountPercentage;		//Item without tax but with discount
+var yesTax = noTax * salesTax + noTax;		//Item with discount and tax
 
+
+//below line displays desired output.
 console.log(noTax, yesTax);
-
 
 
 
