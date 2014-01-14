@@ -41,16 +41,16 @@ console.log("You have spent a total of $" + totalBill + " on groceries over 5 we
 
 //Discounts
 var oringalPrice = 30.00;		//The original price of each item
-var disountPercentage = 0.30;		//The percentage to be discounted
+var disountPercentage = 30;		//The percentage to be discounted
 var description = "Shirt";		//The name of each item
 var salesTax = 0.07;		//The sales tax applied
 
-var noTax = oringalPrice - oringalPrice * disountPercentage;		//Item without tax but with discount
+var noTax = oringalPrice - oringalPrice * (disountPercentage/100);		//Item without tax but with discount
 var yesTax = noTax * salesTax + noTax;		//Item with discount and tax
 
 
-//below line displays desired output.
-console.log(noTax, yesTax);
+//below line displays desired output as instructed.
+console.log("Your " + description + " was originally $" + oringalPrice +", but after a" + disountPercentage +"% discount, it is now $" + noTax + " without tax, and $" + yesTax + " with tax.");
 
 
 
