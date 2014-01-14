@@ -1,8 +1,7 @@
-//Expressions - Arrays in Expressions
+//Expressions - Casting
 
-var orangeBins = [234, 567, 183];
+var stringVar = "6";
 
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2]
+var result = 7 + stringVar;
 
-
-console.log(total);
+console.log(result)
