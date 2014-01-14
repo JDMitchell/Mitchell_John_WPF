@@ -27,3 +27,10 @@ sparkysSlices = pizzaOrderd * slicesOfPizza % peopleAtParty;		//The amount of sl
 
 //The below line displays the amount slices sparky gets.
 console.log("Sparky got" + " " + sparkysSlices + " " + "slices of pizza.");
+
+
+
+//Average Shopping Bill
+var shoppingTotals = [10, 12, 15, 25, 23] ;
+
+console.log(shoppingTotals);
