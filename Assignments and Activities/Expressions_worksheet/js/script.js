@@ -15,7 +15,7 @@ console.log("Sparky is " + sparkysAge + " " + "human years old which is " + dogY
 var slicesOfPizza = 8; 		//Slices of pizza per pie 
 var peopleAtParty = 10;		//The total number of people at the party
 var pizzaOrderd = 5;		//The number of pizzas ordered
-var slicesPerPerson = slicesOfPizza * peopleAtParty / pizzaOrderd;
+var slicesPerPerson = slicesOfPizza * pizzaOrderd / peopleAtParty;
 
 //The below line displays the desired information in the desired format.
 console.log("Each person ate" + " " + slicesPerPerson + " " + "slices of pizza at the party.");
