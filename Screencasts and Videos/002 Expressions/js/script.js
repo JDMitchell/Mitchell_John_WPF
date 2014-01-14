@@ -1,1 +1,4 @@
-alert("This is in my js file");
+//Expressions
+
+var a = 2;
+console.log(a);
