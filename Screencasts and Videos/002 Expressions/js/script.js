@@ -38,7 +38,9 @@ console.log(a);
 
 //Prompts and Alerts
 
-var width = prompt("We are calculating thie area of a rectangle. \n Please enter the width: ");
-var height = prompt("PLease enter the height.");
+var width = prompt("We are calculating thie area of a rectangle. \nPlease enter the width: ");
+var height = prompt("Please enter the height.");
 
-console.log(userInput);
+var area = width * height;
+
+console.log(area);
