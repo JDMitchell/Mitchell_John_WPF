@@ -94,8 +94,8 @@ if (mineralChoice = 8)		//Function to automate which price to use by choice of m
 
 
 
-console.log(cost);
-console.log(iskAmount);
+console.log("The total cost of " + minerals[mineralChoice] + " is " + cost + " isk.");	//Tells you the total cost and the item you are purchasing
+console.log("You have a balance of " + iskAmount + " isk.");		//Tells you your remaining balance after your purchase.
 
 
 
