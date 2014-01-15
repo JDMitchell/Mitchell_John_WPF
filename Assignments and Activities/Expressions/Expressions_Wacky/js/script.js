@@ -45,48 +45,49 @@ if (mineralChoice = 1)		//Function to automate which price to use by choice of m
 {
 	cost = unitCount * tritanium;	//creates total cost to purchase Tritanium
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 2)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * pyerite;	//creates total cost to purchase Pyerite
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 3)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * isogen;	//creates total cost to purchase Isogen
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 4)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * mexallon;	//creates total cost to purchase Mexallon
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 5)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * megacyte;	//creates total cost to purchase Megacyte
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 6)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * morphite;	//creates total cost to purchase Morphite
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 7)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * nocxium;	//creates total cost to purchase Nocxium
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
-if (mineralChoice = 8)		//Function to automate which price to use by choice of mineral.
-{
-	cost = unitCount * zydrine;	//creates total cost to purchase Zydrine
-	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
-}
 
-
-
-
-
-
+	if (mineralChoice = 2)		//Function to automate which price to use by choice of mineral.
+	{
+		cost = unitCount * pyerite;	//creates total cost to purchase Pyerite
+		iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	
+		if (mineralChoice = 3)		//Function to automate which price to use by choice of mineral.
+		{
+			cost = unitCount * isogen;	//creates total cost to purchase Isogen
+			iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+		
+			if (mineralChoice = 4)		//Function to automate which price to use by choice of mineral.
+			{
+				cost = unitCount * mexallon;	//creates total cost to purchase Mexallon
+				iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+			
+				if (mineralChoice = 5)		//Function to automate which price to use by choice of mineral.
+				{
+					cost = unitCount * megacyte;	//creates total cost to purchase Megacyte
+					iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+				
+					if (mineralChoice = 6)		//Function to automate which price to use by choice of mineral.
+					{
+						cost = unitCount * morphite;	//creates total cost to purchase Morphite
+						iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+					
+						if (mineralChoice = 7)		//Function to automate which price to use by choice of mineral.
+						{
+							cost = unitCount * nocxium;	//creates total cost to purchase Nocxium
+							iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+						
+							if (mineralChoice = 8)		//Function to automate which price to use by choice of mineral.
+							{
+								cost = unitCount * zydrine;	//creates total cost to purchase Zydrine
+								iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}
 
 
 
