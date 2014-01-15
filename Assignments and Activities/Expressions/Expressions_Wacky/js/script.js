@@ -26,7 +26,7 @@ console.log(minerals[mineralChoice]);		//Displays the mineral selected.
 var unitCount = prompt("How many units of " + minerals[mineralChoice] + " would you like to purchase?")		//Requests the amount of the item the person would like to purchase.
 console.log(unitCount); 	//Displays the input for units desired.
 
-var cost;
+var cost;	//Will hold the cost of the purchase.
 
 //Constant prices - Extracted from Eve-Central.com
 var tritanium = 4.78;
