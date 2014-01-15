@@ -19,6 +19,7 @@ var amountOfTeaBags = prompt("How many tea bags do you use to make a gallon of t
 var teaBagType = prompt("What type of tea bags do you use?");	//This requests the user to manually enter the type of tea bages he/she uses.
 var cupsOfSugar = prompt("How many cups of sugar do you use to make your gallon of tea?\nUse 0.50 for half a cup and 0.25 for quarter cup.");	//Collects the amount of sugar used to make each gallon of tea.
 var desiredGallonsPerWeek = prompt("How many gallons of tea would you like to have per week.")	//This collects the desired amount of gallons a week to tell you how many gallons of water, tea bags, and cups of sugar needed.
+var gallonsOfWater = desiredGallonsPerWeek; //Stores the amount of water need to make desired gallons of tea.
 
 
 console.log("You drink about " + gallonsPerDay + " gallons per day.");			//Prints collected information from prompt 1 to the console
