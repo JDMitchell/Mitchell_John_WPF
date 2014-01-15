@@ -42,8 +42,7 @@ var zydrine = 738.06;
 
 //Equations
 
-
-switch (Number(mineralChoice))
+switch (Number(mineralChoice))		//works as a multi if else if statement.
 {
 case 1:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * tritanium;	//creates total cost to purchase Tritanium
@@ -86,7 +85,7 @@ case 8:  	//Function to automate which price to use by choice of mineral.
 	break;
 
 default:
-	alert("Please choose a number 1-8.");
+	alert("Please choose a number 1-8.");		//requests the user to follow directions
 	break;
 }
 
@@ -95,7 +94,8 @@ default:
 console.log("The total cost of " + minerals[mineralChoice] + " is " + cost + " isk.");	//Tells you the total cost and the item you are purchasing
 console.log("You have a balance of " + iskAmount + " isk.");		//Tells you your remaining balance after your purchase.
 
-
+alert("The total cost of " + minerals[mineralChoice] + " is " + cost + " isk.");	//Tells user the total cost and item purchased
+alert("You have a balance of " + iskAmount + " isk.");		//Tells user the current balance of his wallet.
 
 /*
 //These are for the selling of items(possible future use).
