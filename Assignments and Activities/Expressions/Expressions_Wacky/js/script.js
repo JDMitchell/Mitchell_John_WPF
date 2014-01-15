@@ -11,3 +11,4 @@ I play this game for 8+ hours a day in game for over two years.
 This is the basic happens of extractions from the wallet in game and the market.
 */
 
+var iskAmount = prompt("How much Isk is currently in your wallet?\nDo not worry about entering the appropriate commas.")	//This line requests the user put in the amount of isk that is in his in game wallet
