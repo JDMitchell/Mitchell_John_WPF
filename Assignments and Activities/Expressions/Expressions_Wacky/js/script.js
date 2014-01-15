@@ -26,7 +26,7 @@ console.log(minerals[mineralChoice]);		//Displays the mineral selected.
 var unitCount = prompt("How many units of " + minerals[mineralChoice] + " would you like to purchase?")		//Requests the amount of the item the person would like to purchase.
 console.log(unitCount); 	//Displays the input for units desired.
 
-
+var cost;
 
 //Constant prices - Extracted from Eve-Central.com
 var tritanium = 4.78;
@@ -50,41 +50,50 @@ switch (mineralChoice)
 case 1:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * tritanium;	//creates total cost to purchase Tritanium
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
+	return iskAmount;
 	break;
 
 case 2:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * pyerite;	//creates total cost to purchase Pyerite
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 3:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * isogen;	//creates total cost to purchase Isogen
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 4:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * mexallon;	//creates total cost to purchase Mexallon
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 5:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * megacyte;	//creates total cost to purchase Megacyte
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 6:
 	cost = unitCount * morphite;	//creates total cost to purchase Morphite
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 7:		//Function to automate which price to use by choice of mineral.
 	cost = unitCount * nocxium;	//creates total cost to purchase Nocxium
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 case 8:  	//Function to automate which price to use by choice of mineral.
 	cost = unitCount * zydrine;	//creates total cost to purchase Zydrine
 	iskAmount -= cost;		//Tells you how much isk you will have left or, in the case of a negative, how much isk you need.
+	return cost;
 	break;
 
 }
