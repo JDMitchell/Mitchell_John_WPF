@@ -8,7 +8,7 @@
 /*
 This will be based on the happenings that occur everyday in the game EVE Online.
 I play this game for 8+ hours a day in game for over two years.
-This is the basic happenings of extractions and additions from the wallet in game based on market purchasing of minerals.
+This is the basic happenings of extractions from the wallet in game based on market purchasing of minerals.
 */
 
 //Declared Variables
@@ -30,9 +30,11 @@ var morphite = 7200.03;
 var nocxium = 704.37;
 var zydrine = 738.06;
 
+/*
+//These are for the selling of items(possible future use).
 var salesTax = 0.015;
 var brokersFee = 0.099;
-
+*/
 
 
 
@@ -42,6 +44,7 @@ console.log(iskAmount); //Display in console what the user entered.
 console.log(minerals);	//Displays the array of minerals
 console.log(minerals[mineralChoice]);		//Displays the mineral selected.
 console.log(unitCount); 	//Displays the input for units desired.
+
 
 
 
