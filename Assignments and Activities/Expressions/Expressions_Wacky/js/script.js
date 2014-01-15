@@ -34,13 +34,14 @@ var zydrine = 738.06;
 
 //Equations
 if (mineralChoice = 1)
-	{
-		cost = unitCount * tritanium;
-		iskAmount -= cost;
-	}
+{
+	cost = unitCount * tritanium;
+	iskAmount -= cost;
+}
 
 
 console.log(cost);
+console.log(iskAmount);
 
 
 
