@@ -9,6 +9,7 @@
 This will be based on the happenings that occur everyday in the game EVE Online.
 I play this game for 8+ hours a day in game for over two years.
 This is the basic happenings of extractions from the wallet in game based on market purchasing of minerals.
+This will provide a way for you to plan the cost of your material costs.
 */
 
 alert("The currency of EVE Online is known as Isk.")	//Informs the user what the currency is know as.
