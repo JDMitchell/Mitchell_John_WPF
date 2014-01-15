@@ -28,8 +28,8 @@ console.log("It takes you " + cupsOfSugar + " cups of sugar to make a gallon of 
 console.log("You would like to have " + desiredGallonsPerWeek + " gallons of tea made a week.");	//Prints collected information from prompt 5 to the console
 
 //Below are the calculations to make the desired amount of tea.
-var teaBagsNeeded = desiredGallonsPerWeek * amountOfTeaBags;
-var cupsOfSugarNeeded = desiredGallonsPerWeek * cupsOfSugar;
+var teaBagsNeeded = desiredGallonsPerWeek * amountOfTeaBags;	
+var cupsOfSugarNeeded = desiredGallonsPerWeek * cupsOfSugar;	
 
-console.log(teaBagsNeeded);
-console.log(cupsOfSugarNeeded);
+console.log("You will need " + teaBagsNeeded + " tea bags to make " + desiredGallonsPerWeek + " gallons of tea.");		
+console.log("You will need " + cupsOfSugarNeeded + " cups of sugar to make " + desiredGallonsPerWeek + " gallons of tea.");	
