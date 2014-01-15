@@ -9,6 +9,8 @@
 //It will also request specifics on how you make tea.
 //This only works if you make tea by the gallon.
 
-var teaBags = prompt("How many tea bags do you use to make a gallon of tea.")
+var gallonsPerWeek = prompt("About how many gallons of Tea do you drink a week.\nPlease use 0.5 for half a gallon and 0.25");
+var teaBags = prompt("How many tea bags do you use to make a gallon of tea.");
 
+console.log(gallonsPerWeek);
 console.log(teaBags);
