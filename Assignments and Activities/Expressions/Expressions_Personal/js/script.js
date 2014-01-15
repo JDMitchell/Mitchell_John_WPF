@@ -34,5 +34,5 @@ var cupsOfSugarNeeded = desiredGallonsPerWeek * cupsOfSugar;	//This equation wil
 
 console.log("You will need " + teaBagsNeeded + " tea bags to make " + desiredGallonsPerWeek + " gallons of tea.");		//Displays how many tea bags are needed for specified amount of gallons.
 console.log("You will need " + cupsOfSugarNeeded + " cups of sugar to make " + desiredGallonsPerWeek + " gallons of tea.");		//Displays how many cups of sugar are needed for the specified amount of gallons.
-
+console.log("You will also need " + gallonsOfWater + " gallons of water to make " + desiredGallonsPerWeek + " gallons of tea.")		//Displays how many gallons of water are needed for the specified amount of gallons.
 
