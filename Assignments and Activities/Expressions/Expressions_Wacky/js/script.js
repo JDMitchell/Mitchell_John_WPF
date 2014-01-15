@@ -20,7 +20,7 @@ var unitCount = prompt("How many units of " + minerals[mineralChoice] + " would 
 
 
 
-//Constant prices
+//Constant prices - Extracted from Eve-Central.com
 var tritanium = 4.78;
 var pyerite = 12.51;
 var isogen = 127.69;
@@ -29,6 +29,20 @@ var megacyte = 1560.31;
 var morphite = 7200.03;
 var nocxium = 704.37;
 var zydrine = 738.06;
+
+
+
+//Equations
+if (mineralChoice = 1)
+	{
+		cost = unitCount * tritanium;
+		iskAmount -= cost;
+	}
+
+
+console.log(cost);
+
+
 
 /*
 //These are for the selling of items(possible future use).
