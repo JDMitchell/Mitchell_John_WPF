@@ -30,5 +30,5 @@ console.log(programName);	//Displays user input to console.
 var programClasses = prompt("How many classes are there in the program?\nPlease included transfer credits and completed classes.\nAlso use number format E.G. 22, 53, ...")	//Acquires the total classes the program has
 console.log(programClasses);	//Displays input to console.
 
-
+console.log("SCHOOL NAME\t\tPROGRAM NAME\tNUMBER OF CLASSES")
 
