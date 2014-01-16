@@ -31,4 +31,5 @@ var programClasses = prompt("How many classes are there in the program?\nPlease 
 console.log(programClasses);	//Displays input to console.
 
 console.log("SCHOOL NAME\t\tPROGRAM NAME\tNUMBER OF CLASSES")
+console.log(schoolName +"\t\t"+programName+"\t"+programClasses)
 
