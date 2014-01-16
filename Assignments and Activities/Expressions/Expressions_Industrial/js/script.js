@@ -39,6 +39,9 @@ console.log(classesTaken);	//Displays input in the console.
 var transferCredits = prompt("How many classes did you transfer over?")		//request how many classes were transfered.
 console.log(transferCredits);	//Displays input in the console.
 
+var removedClasses = Number(classesTaken) + Number(transferCredits);	//Added the number of taken classes and transferred classes together.
+console.log(removedClasses);
+
 
 
 
