@@ -10,5 +10,10 @@ This will request the users information on the basics of their educational caree
 
 alert("The following prompts will request your information about the school you are currently attending.");  // Lets the user know what to expect from the next few lines of code.
 
+var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
+console.log(schoolName);	//Displays user input in the console.
+
+
+
 
 
