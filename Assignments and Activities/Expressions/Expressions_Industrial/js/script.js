@@ -11,13 +11,10 @@ This will request the users information on the basics of their current education
 alert("The following prompts will request your information about the school you are currently attending.");  // Lets the user know what to expect from the next few lines of code.
 
 var firstName = prompt("Please enter your first name:")	//requests users first name
-console.log(firstName)	//Displays firstName in the console.
+//console.log(firstName)	//Displays firstName in the console.
 
 var lastName = prompt("Pleas enter your last name:")	//requests users last name
-console.log(lastName)	//displays lastName to the console
-
-console.log(firstName + " " + lastName)	//Should display users first and last name on the same line.
-
+//console.log(lastName)	//displays lastName to the console
 
 var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
 console.log(schoolName);	//Displays user input in the console.
@@ -44,6 +41,8 @@ console.log(removedClasses);	//Displays calculation in console.
 
 var classesLeft = Number(programClasses) - Number(removedClasses);		//Removes the number of classes removed from total number of classes
 console.log(classesLeft);		//Displays the number classes left.
+
+console.log(firstName + " " + lastName)	//Should display users first and last name on the same line.
 
 
 
