@@ -36,6 +36,9 @@ console.log(schoolName +"\t\t"+programName+"\t"+programClasses)		//Displays user
 var classesTaken = prompt("How many classes have you completed?\nThese do not include transfer credits.")	//Collects the number of completed courses.
 console.log(classesTaken);	//Displays input in the console.
 
+var transferCredits = prompt("How many classes did you transfer over?")		//request how many classes were transfered.
+console.log(transferCredits);	//Displays input in the console.
+
 
 
 
