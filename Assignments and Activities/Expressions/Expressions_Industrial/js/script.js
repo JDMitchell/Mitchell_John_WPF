@@ -10,7 +10,8 @@ This will request the users information on the basics of their educational caree
 
 alert("The following prompts will request your information about the school you are currently attending.");  // Lets the user know what to expect from the next few lines of code.
 
-
+var firstName = prompt("Please enter your first name:")	//requests users first name
+console.log(firstName)	//Displays firstName into the console.
 
 
 
