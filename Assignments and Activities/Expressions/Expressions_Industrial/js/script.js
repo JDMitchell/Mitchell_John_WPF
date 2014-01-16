@@ -18,10 +18,10 @@ var lastName = prompt("Pleas enter your last name:")	//requests users last name
 
 
 var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
-console.log(schoolName);	//Displays user input in the console.
+//console.log(schoolName);	//Displays user input in the console.
 
 var programName = prompt("What program are you enrolled in?")	//Requests the user to enter the name of their program
-console.log(programName);	//Displays user input to console.
+//console.log(programName);	//Displays user input to console.
 
 
 var programClasses = prompt("How many classes are there in the program?\nPlease included transfer credits and completed classes.\nAlso use number format E.G. 22, 53, ...")	//Acquires the total classes the program has
@@ -33,10 +33,10 @@ console.log(schoolName +"\t\t"+programName+"\t"+programClasses)		//Displays user
 */
 
 var classesTaken = prompt("How many classes have you completed?\nThese do not include transfer credits.")	//Collects the number of completed courses.
-console.log(classesTaken);	//Displays input in the console.
+//console.log(classesTaken);	//Displays input in the console.
 
 var transferCredits = prompt("How many classes did you transfer over?")		//request how many classes were transfered.
-console.log(transferCredits);	//Displays input in the console.
+//console.log(transferCredits);	//Displays input in the console.
 
 var removedClasses = Number(classesTaken) + Number(transferCredits);	//Added the number of taken classes and transferred classes together.
 console.log(removedClasses);	//Displays calculation in console.
@@ -46,10 +46,10 @@ console.log(classesLeft);		//Displays the number classes left.
 
 
 var fullName = firstName + " " + lastName;	//Should create users first and last name on the same line.
-console.log(fullName);	//Displays fullname
+console.log("\n\n\nName: " + fullName);	//Displays fullname
 
 var schoolNameAndProgram = schoolName + " - " + programName;		//Will create one line that holds the school and program name
 console.log(schoolNameAndProgram);	//Displays school name and program.
-
+conole.log("You have removed " + removedClasses + " classes leaving you to take " + classesLeft + " classes.");		//Tells user how many classes have been removed and how many are left.
 
 
