@@ -16,7 +16,7 @@ console.log(firstName)	//Displays firstName in the console.
 var lastName = prompt("Pleas enter your last name:")	//requests users last name
 console.log(lastName)	//displays lastName to the console
 
-
+console.log(firstName + " " + lastName)	//Should display users first and last name on the same line.
 
 
 
