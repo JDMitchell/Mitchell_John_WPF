@@ -7,4 +7,8 @@
 /*
 This will request the users information on the basics of their educational career
 */
-alert("This is in my js file");
+
+alert("The following prompts will request your information about the school you are currently attending.");  // Lets the user know what to expect from the next few lines of code.
+
+
+
