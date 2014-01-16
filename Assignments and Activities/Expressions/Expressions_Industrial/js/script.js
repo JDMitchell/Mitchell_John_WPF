@@ -16,13 +16,13 @@ var firstName = prompt("Please enter your first name:")	//requests users first n
 var lastName = prompt("Pleas enter your last name:")	//requests users last name
 //console.log(lastName)	//displays lastName to the console
 
-var fullName = firstName + " " + lastName;	//Should create users first and last name on the same line.
 
 var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
 console.log(schoolName);	//Displays user input in the console.
 
 var programName = prompt("What program are you enrolled in?")	//Requests the user to enter the name of their program
 console.log(programName);	//Displays user input to console.
+
 
 var programClasses = prompt("How many classes are there in the program?\nPlease included transfer credits and completed classes.\nAlso use number format E.G. 22, 53, ...")	//Acquires the total classes the program has
 console.log(programClasses);	//Displays input to console.
@@ -44,8 +44,12 @@ console.log(removedClasses);	//Displays calculation in console.
 var classesLeft = Number(programClasses) - Number(removedClasses);		//Removes the number of classes removed from total number of classes
 console.log(classesLeft);		//Displays the number classes left.
 
+
+var fullName = firstName + " " + lastName;	//Should create users first and last name on the same line.
 console.log(fullName);	//Displays fullname
 
+var schoolNameAndProgram = schoolName + " - " + programName;		//Will create one line that holds the school and program name
+console.log(schoolNameAndProgram);	//Displays school name and program.
 
 
 
