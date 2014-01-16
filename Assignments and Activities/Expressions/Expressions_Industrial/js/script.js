@@ -13,6 +13,8 @@ alert("The following prompts will request your information about the school you 
 var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
 console.log(schoolName);	//Displays user input in the console.
 
+var programName = prompt("What program are you enrolled in?")	//Requests the user to enter the name of their program
+console.log(programName);	//Displays user input to console.
 
 
 
