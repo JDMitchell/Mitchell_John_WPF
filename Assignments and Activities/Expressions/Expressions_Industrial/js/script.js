@@ -5,7 +5,7 @@
 
 //This is the Industrial JS file.
 /*
-This will request the users information on the basics of their educational career
+This will request the users information on the basics of their current educational career
 */
 
 alert("The following prompts will request your information about the school you are currently attending.");  // Lets the user know what to expect from the next few lines of code.
@@ -17,8 +17,6 @@ var lastName = prompt("Pleas enter your last name:")	//requests users last name
 console.log(lastName)	//displays lastName to the console
 
 console.log(firstName + " " + lastName)	//Should display users first and last name on the same line.
-
-
 
 
 var schoolName = prompt("What is the name of the school you are currently attending?");	//Retrieves user input on the school name.
@@ -34,3 +32,11 @@ console.log(programClasses);	//Displays input to console.
 console.log("SCHOOL NAME\t\tPROGRAM NAME\t\t\t\tNUMBER OF CLASSES")	//meant to be format for display below.
 console.log(schoolName +"\t\t"+programName+"\t"+programClasses)		//Displays users information in the above format. 
 */
+
+var classesTaken = prompt("How many classes have you completed?\nThese do not include transfer credits.")	//Collects the number of completed courses.
+console.log(classesTaken);	//Displays input in the console.
+
+
+
+
+
