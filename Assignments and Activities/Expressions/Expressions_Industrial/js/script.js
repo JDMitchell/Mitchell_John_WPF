@@ -25,7 +25,7 @@ var programName = prompt("What program are you enrolled in?")	//Requests the use
 
 
 var programClasses = prompt("How many classes are there in the program?\nPlease included transfer credits and completed classes.\nAlso use number format E.G. 22, 53, ...")	//Acquires the total classes the program has
-console.log(programClasses);	//Displays input to console.
+//console.log(programClasses);	//Displays input to console.
 
 /*DOES NOT WORK WITH SMALLER OR LARGER INPUTS OTHER THAN THOSE THAT MATCH MY CREDENTIALS EXACT.
 console.log("SCHOOL NAME\t\tPROGRAM NAME\t\t\t\tNUMBER OF CLASSES")	//meant to be format for display below.
@@ -50,6 +50,6 @@ console.log("\n\n\nName: " + fullName);	//Displays fullname
 
 var schoolNameAndProgram = schoolName + " - " + programName;		//Will create one line that holds the school and program name
 console.log(schoolNameAndProgram);	//Displays school name and program.
-conole.log("You have removed " + removedClasses + " classes leaving you to take " + classesLeft + " classes.");		//Tells user how many classes have been removed and how many are left.
+console.log("You have removed " + removedClasses + " classes leaving you to take " + classesLeft + " classes.");		//Tells user how many classes have been removed and how many are left.
 
 
