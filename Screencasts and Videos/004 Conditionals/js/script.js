@@ -35,3 +35,5 @@ else{
 }
 */
 
+//Video - Conditionals
+//REPEAT OF VIDEO - CONDITIONAL LOGIC CONCEPTS
