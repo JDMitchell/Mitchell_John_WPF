@@ -39,6 +39,7 @@ else{
 //REPEAT OF VIDEO - CONDITIONAL LOGIC CONCEPTS
 
 //Video - Conditional Example.
+/*
 var oldEnough = false;
 
 //if the child is old enough, print to the console "You can Ride!"
@@ -47,3 +48,25 @@ if(oldEnough){
 	console.log("You can Ride the coaster!");
 }
 console.log("What comes after");
+*/
+
+//Video - Relational Expressions
+var kidHeight = 30;
+
+//if the kid is over 48 inches in height, print to the console "You can Ride!"
+if(kidHeight > 48){
+	//Code performed if condition is true
+	console.log("You can Ride the coaster!");
+}
+console.log("What comes after");
+
+
+
+
+
+
+
+
+
+
+
