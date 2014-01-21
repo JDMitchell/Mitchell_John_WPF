@@ -15,12 +15,15 @@ if(competitorWeight >= 250){
 
 
 //Celcius to Fahrenheit converter
-var degrees = 32;
-var unit;
-if(unit === "F" || unit === "f"){
-	console.log("The temperature is " + + " degrees Celcius.")
-}else if(unit === "C" || unit === "c"){
-	console.log("the temperature is " + + " degrees Fahrenheit.")
+var degrees = prompt("Please enter the number of degrees you need covertered: \nThe next promt with gather the temperture united being coverted to.");
+var unit = prompt("Please enter the unit of temperature you would like to covert to. C/F")
+var convertedDegrees;
+if(unit === "C" || unit === "c"){
+	convertedDegrees = 5/9(degrees-32)
+	console.log("The temperature is " + degrees + " degrees Celcius.")
+}else if(unit === "F" || unit === "f"){
+	convertedDegrees = 9/5*degrees+32
+	console.log("the temperature is " + degrees + " degrees Fahrenheit.")
 }else{
 	console.log("Please choose a 'f' or 'c.'")
 }
