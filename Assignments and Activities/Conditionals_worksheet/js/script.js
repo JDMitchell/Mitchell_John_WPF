@@ -20,10 +20,10 @@ var unit = prompt("Please enter the unit of temperature you would like to covert
 var convertedDegrees;
 if(unit === "C" || unit === "c"){
 	convertedDegrees = 5/9(degrees-32)
-	console.log("The temperature is " + degrees + " degrees Celcius.")
+	console.log("The temperature is " + convertedDegrees + " degrees Celcius.")
 }else if(unit === "F" || unit === "f"){
 	convertedDegrees = 9/5*degrees+32
-	console.log("the temperature is " + degrees + " degrees Fahrenheit.")
+	console.log("the temperature is " + convertedDegrees + " degrees Fahrenheit.")
 }else{
 	console.log("Please choose a 'f' or 'c.'")
 }
