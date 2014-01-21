@@ -63,7 +63,7 @@ if(kidHeight > minghieght){
 */
 
 //Video - Condition with Expression
-var kidHeight = 40;
+var kidHeight = 47;
 var minghieght = 48
 
 //if the kid is over 48 inches in height, print to the console "You can Ride!"
