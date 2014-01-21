@@ -76,7 +76,7 @@ if(kidHeight + sneakerLift > minghieght){
 */
 
 //Video - If and Else
-var kidHeight = 48;
+var kidHeight = 52;
 var minHieght = 48
 
 //if the kid is over 48 inches in height, print to the console "You can Ride!"
