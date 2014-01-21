@@ -6,7 +6,7 @@ Expressional Worksheet
 
 
 //Stuff your Face I
-var competitorWeight = 250;
+var competitorWeight = 249;
 if(competitorWeight >= 250){
 	console.log("The competitor qualifies for the heavyweight division.")
 }else{
