@@ -21,3 +21,17 @@ if(temp == 75){
 	go goToTheBeach();
 }
 */
+
+//Video - Nesting Conditionals
+/*
+if(sunny){
+	goToTheBeach();
+	if(warmWater){		//This is the nested conditional.
+		wearNewSuit();
+	}
+}
+else{
+	goToTheMovies();
+}
+*/
+
