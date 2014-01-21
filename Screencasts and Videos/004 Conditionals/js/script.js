@@ -37,3 +37,12 @@ else{
 
 //Video - Conditionals
 //REPEAT OF VIDEO - CONDITIONAL LOGIC CONCEPTS
+
+//Video - Conditional Example.
+var oldEnough = true;
+
+//if the child is old enough, print to the console "You can Ride!"
+if(oldEnough){
+	//Code performed if condition is true
+	console.log("You can Ride the coaster!")
+}
