@@ -51,11 +51,23 @@ console.log("What comes after");
 */
 
 //Video - Relational Expressions
+/*
 var kidHeight = 40;
 var minghieght = 48
 
 //if the kid is over 48 inches in height, print to the console "You can Ride!"
 if(kidHeight > minghieght){
+	//Code performed if condition is true
+	console.log("You can Ride the coaster!");
+}
+*/
+
+//Video - Condition with Expression
+var kidHeight = 40;
+var minghieght = 48
+
+//if the kid is over 48 inches in height, print to the console "You can Ride!"
+if(kidHeight + 2 > minghieght){
 	//Code performed if condition is true
 	console.log("You can Ride the coaster!");
 }
