@@ -44,5 +44,6 @@ var oldEnough = false;
 //if the child is old enough, print to the console "You can Ride!"
 if(oldEnough){
 	//Code performed if condition is true
-	console.log("You can Ride the coaster!")
+	console.log("You can Ride the coaster!");
 }
+console.log("What comes after");
