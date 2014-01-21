@@ -64,10 +64,11 @@ if(kidHeight > minghieght){
 
 //Video - Condition with Expression
 var kidHeight = 47;
-var minghieght = 48
+var minghieght = 48;
+var sneakerLift = 2;
 
 //if the kid is over 48 inches in height, print to the console "You can Ride!"
-if(kidHeight + 2 > minghieght){
+if(kidHeight + sneakerLift > minghieght){
 	//Code performed if condition is true
 	console.log("You can Ride the coaster!");
 }
