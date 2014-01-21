@@ -1,1 +1,4 @@
-alert("This is in my js file");
+/*
+John Mitchell
+Conditionals - Screencasts
+*/
