@@ -91,6 +91,7 @@ if(kidHeight > minHieght){
 */
 
 //Video - Else If
+/*
 var kidHeight = 52;
 var minHieght = 48;
 var parentHeight = 45;
@@ -106,9 +107,19 @@ if(kidHeight > minHieght){
 	//Sorry Kid you have some growin to do
 	console.log("Sorry kid, You've got some growing to do first!")
 }
+*/
 
+//Video - Logical Operators
+//Logical Operators are &&(And), ||(Or), ^(Exclusive Or), !(Not)
+var budget = 300
+var iphonePrice = 199.99
+var payCheck = 200
 
-
+if(iphonePrice < budget){
+	console.log("We can buy the phone")
+}else{
+	console.log("No phone for you")
+}
 
 
 
