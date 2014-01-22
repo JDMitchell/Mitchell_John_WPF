@@ -31,40 +31,6 @@ if(unit === "C" || unit === "c"){
 //Grade calculator
 var grade = prompt("Please enter your grade percentage.\n32% would be 32.")
 var letter
-console.log(grade)
-if(grade >= 95){
-	letter = "A+"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 90 && grade <= 94){
-	letter = "A"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 85 && grade <= 89){
-	letter = "B+"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 80 && grade <= 84){
-	letter = "B"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 76 && grade <= 79){
-	letter = "C+"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 73 && grade <= 75){
-	letter = "C"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade >= 70 && grade <= 72){
-	letter = "D"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-if(grade <= 69){
-	letter = "F"
-	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
-}
-
 /*
 A+ 	95-100	4.0
 A 	90-94	3.5
@@ -75,3 +41,53 @@ C 	73-75	1.5
 D 	70-72	1.0
 F 	0-69 	0.0
 */
+if(grade >= 95){
+	letter = "A+"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 90 && grade <= 94){
+	letter = "A"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 85 && grade <= 89){
+	letter = "B+"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 80 && grade <= 84){
+	letter = "B"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 76 && grade <= 79){
+	letter = "C+"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 73 && grade <= 75){
+	letter = "C"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade >= 70 && grade <= 72){
+	letter = "D"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else if(grade <= 69){
+	letter = "F"
+	console.log("You have a " + grade + "%, which means you have earned a(n) " + letter + " in the class!")
+}
+else{
+	console.log("Please enter a number 0-100")
+}
+
+
+//Movie ticket price
+var timeOfMovie = 5;
+var ageofCustomer = prompt("Please enter your age to assess the price of the ticket: ")
+if(Number(ageofCustomer) >= 55 || Number(ageofCustomer) < 10){
+	console.log("Your ticket price is 7$.") 
+}else{
+ 	console.log("Your ticket price is 12$.")
+}
+//couldn't get the ternary to work for that... if possible wouldn't mind help.
+
+
+
+
