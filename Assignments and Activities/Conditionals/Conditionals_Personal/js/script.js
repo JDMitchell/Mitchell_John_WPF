@@ -14,7 +14,7 @@ var avgGasPrice = prompt("Please enter the average price of gas expected for you
 
 
 //Calculations
-var gasPurchased = budgetForGas * avgGasPrice;	//calculates the maximum amount of gas in gallons that can be purchased
+var gasPurchased = budgetForGas / avgGasPrice;	//calculates the maximum amount of gas in gallons that can be purchased
 var distanceAbleToTravel = mpg * gasPurchased;
 
 var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your trip!" : "You need more money for gas!";
@@ -32,6 +32,8 @@ var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your
 //Concatenated strings for explinations
 //console.log("Your " + car + " gets an average of " + mpg + " miles per gallon.");
 //console.log("The expected average gas price is $" + avgGasPrice + ".")
-//console.log("You can but a total of " + gasPurchased + " gallons of gas with $" + budgetForGas + ".");
-//console.log("You can travel a total of " + distanceAbleToTravel + " miles with your budget and mpg.");
+console.log("You can buy a total of " + gasPurchased + " gallons of gas with $" + budgetForGas + ".");
+console.log("You can travel a total of " + distanceAbleToTravel + " miles with your budget and mpg.");
+console.log("Your trip is a total of " + milesToDestination + " miles.");
+
 console.log(ableToGo);
