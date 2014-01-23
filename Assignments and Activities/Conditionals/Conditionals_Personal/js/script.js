@@ -13,13 +13,22 @@ var milesToDestination = prompt("How many miles is it to your destination?\n(Ple
 var avgGasPrice = prompt("Please enter the average price of gas expected for your trip.\nExample: 3.79")	//REquest user to enter the expected avg price of gas.
 
 
+//Calculations
+var gasPurchased = budgetForGas * avgGasPrice;	//calculates the maximum amount of gas in gallons that can be purchased
 
-var  = (mpgNeeded >= 32) ? "You can make your trip!" : "You need more money for gas!";
+
+//var  = () ? "You can make your trip!" : "You need more money for gas!";
 
 
 //Console output to make sure variables are storing correctly
-console.log(car);
-console.log(budgetForGas);
-console.log(mpg);
+//console.log(car);
+//console.log(budgetForGas);
+//console.log(mpg);
 console.log(milesToDestination);
 console.log(avgGasPrice);
+//console.log(gasPurchased);
+
+
+//Concatenated strings for explinations
+console.log("Your " + car + " gets an average of " + mpg + " miles per gallon.");
+console.log("You can but a total of " + gasPurchased + " with $" + budgetForGas + ".");
