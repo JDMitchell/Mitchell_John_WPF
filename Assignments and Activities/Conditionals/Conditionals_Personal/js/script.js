@@ -4,6 +4,10 @@ Conditionals - Personal
 January 23, 2014
 */
 
+/*
+This is based on the fact that I live at least an hour from civilation currently and do constant travelling whether for entertainment or work related purposes
+*/
+
 
 alert("This will allow you to see if you have a car has your needed MPG rating for your trip.");	//Alerts the user of the purpose of this program
 var car = prompt("Which vehicle will you be taking on this trip?")	//Asks car they will be taking.
@@ -15,13 +19,13 @@ var avgGasPrice = prompt("Please enter the average price of gas expected for you
 
 //Calculations
 var gasPurchased = budgetForGas / avgGasPrice;	//calculates the maximum amount of gas in gallons that can be purchased
-var distanceAbleToTravel = mpg * gasPurchased;
+var distanceAbleToTravel = mpg * gasPurchased;	//calculates the distance that can be travelled
 
 var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your trip!" : "You need more money for gas!"; //Ternary decision maker.
 
 //rounds following variables to 2 decimal places
-gasPurchased = gasPurchased.toFixed(2);
-distanceAbleToTravel = distanceAbleToTravel.toFixed(2);
+gasPurchased = gasPurchased.toFixed(2);	//Rounds gaspurchased
+distanceAbleToTravel = distanceAbleToTravel.toFixed(2);	//Rounds distance travalable.
 
 //Console output to make sure variables are storing correctly
 //console.log(car);
