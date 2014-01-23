@@ -17,9 +17,9 @@ var avgGasPrice = prompt("Please enter the average price of gas expected for you
 var gasPurchased = budgetForGas / avgGasPrice;	//calculates the maximum amount of gas in gallons that can be purchased
 var distanceAbleToTravel = mpg * gasPurchased;
 
-var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your trip!" : "You need more money for gas!";
+var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your trip!" : "You need more money for gas!"; //Ternary decision maker.
 
-//roundings
+//rounds following variables to 2 decimal places
 gasPurchased = gasPurchased.toFixed(2);
 distanceAbleToTravel = distanceAbleToTravel.toFixed(2);
 
@@ -39,4 +39,4 @@ console.log("You can buy a total of " + gasPurchased + " gallons of gas with $" 
 console.log("You can travel a total of " + distanceAbleToTravel + " miles with your budget and mpg.");
 console.log("Your trip is a total of " + milesToDestination + " miles.");
 
-console.log(ableToGo);
+console.log(ableToGo); //Ternary output.
