@@ -19,6 +19,9 @@ var distanceAbleToTravel = mpg * gasPurchased;
 
 var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your trip!" : "You need more money for gas!";
 
+//roundings
+gasPurchased = gasPurchased.toFixed(2);
+distanceAbleToTravel = distanceAbleToTravel.toFixed(2);
 
 //Console output to make sure variables are storing correctly
 //console.log(car);
@@ -30,8 +33,8 @@ var ableToGo = (distanceAbleToTravel >= milesToDestination) ? "You can make your
 
 
 //Concatenated strings for explinations
-//console.log("Your " + car + " gets an average of " + mpg + " miles per gallon.");
-//console.log("The expected average gas price is $" + avgGasPrice + ".")
+console.log("Your " + car + " gets an average of " + mpg + " miles per gallon.");
+console.log("The expected average gas price is $" + avgGasPrice + ".")
 console.log("You can buy a total of " + gasPurchased + " gallons of gas with $" + budgetForGas + ".");
 console.log("You can travel a total of " + distanceAbleToTravel + " miles with your budget and mpg.");
 console.log("Your trip is a total of " + milesToDestination + " miles.");
