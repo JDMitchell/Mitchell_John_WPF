@@ -10,7 +10,7 @@ var systems = ["No System", " Playstation", " PS2", " PS3", " NES", " SNES", " N
 var chosenSystem = prompt(systems + "\n\nPlease choose one of the above game systems.\nNo System(0)-PSP(15)");	//requests user to make a choice
 
 
-console.log(chosenSystem) //displays the array
+console.log(systems[chosenSystem]) //displays the array
 
 /*
 else if(chosenSystem === ""){
