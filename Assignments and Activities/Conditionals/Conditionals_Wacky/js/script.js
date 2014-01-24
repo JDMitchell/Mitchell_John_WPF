@@ -5,9 +5,9 @@ January 23, 2014
 */
 
 //displays random info about the system
-var systems = ["No System", " Playstation", " PS2", " PS3", " NES", " SNES", " N64", " Gamecube", " Wii", " Sega", " Sega Dreamcast", " Gameboy", " GBA", " DS", " 3DS", " PSP"] //List of available systems
+var systems = ["No System", " Playstation", " PS2", " PS3", " NES", " SNES", " N64", " Gamecube", " Wii"] //List of available systems
 //index = 0-15
-var chosenSystem = prompt(systems + "\n\nPlease choose one of the above game systems.\nNo System(0)-PSP(15)");	//requests user to make a choice
+var chosenSystem = prompt(systems + "\n\nPlease choose one of the above game systems.\nNo System(0)-Wii(8)");	//requests user to make a choice
 
 
 //console.log(systems[chosenSystem]) //displays the array item chosen
@@ -39,91 +39,40 @@ if(chosenSystem === '1' || chosenSystem === '2' || chosenSystem === '3'){	//Play
 		console.log(systems[chosenSystem]) //displays the array item chosen
 		//Information about the chosen system
 		console.log("This system has been upgraded to SNES.")
-		console.log("Well known games are: Lost Planet 2, Resident Evil 5, Fallout, The Elder Scrolls:Skyrim")
-		console.log("The system was introduced to the states in 2006")
+		console.log("Well known games are: Duck Hunt, Track & Field, Super Mario Bros., Zelda 2")
+		console.log("The system was introduced to the states in 1985")
 	}
 	if(chosenSystem === '5'){
 		console.log(systems[chosenSystem]) //displays the array item chosen
 		//Information about the chosen system
 		console.log("This system has been upgraded to N64.")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in 2006")
+		console.log("Well known games are: Super Mario World, Yoshi's Island, Donkey Kong 1-3, Mario Kart, A Link to the Past")
+		console.log("The system was introduced to the states in 1991")
 	}
 	if(chosenSystem === '6'){
 		console.log(systems[chosenSystem]) //displays the array item chosen
 		//Information about the chosen system
 		console.log("This system has been upgraded to Gamecube.")
-		console.log("Well known games are:")
-		console.log("The system was introduced to the states in 2006")
+		console.log("Well known games are: Super Mario 64, Donkey Kong 64, Banjo Kazooie, Pokemon Snap, Super Smash Bros., Legend of Zelda: Ocarina of Time. GoldenEye 007")
+		console.log("The system was introduced to the states in 1996")
 	}
 	if(chosenSystem === '7'){
 		console.log(systems[chosenSystem]) //displays the array item chosen
 		//Information about the chosen system
 		console.log("This system has been upgraded to Wii.")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in 2006")
+		console.log("Well known games are: Super Smash Bros. Melee, Kirby's Air Ride, Luigi's Mansion, Super Mario Sunshine, Mario Party 4-5.")
+		console.log("The system was introduced to the states in 2001")
 	}
 	if(chosenSystem === '8'){
 		console.log(systems[chosenSystem]) //displays the array item chosen
 		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
+		console.log("This system has been upgraded to WiiU.")
+		console.log("Well known games are: Super Mario Galaxy, Super Mario Bros Wii, Super Smash Bros Brawl, Kirby's Epic Yarn")
+		console.log("The system was introduced to the states in 2005")
 	}
-}else if(chosenSystem === '9' || chosenSystem === '10'){	//Sega game systems
-	if(chosenSystem === '9'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
-	if(chosenSystem === '10'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}		
-}else if(chosenSystem === '11' || chosenSystem === '12' || chosenSystem === '13' || chosenSystem === '14'){	//Nintendo Handhelds
-	if(chosenSystem === '11'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
-	if(chosenSystem === '12'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
-	if(chosenSystem === '13'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
-	if(chosenSystem === '14'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
-}else if(chosenSystem === '15'){	//Playstation handheld
-	if(chosenSystem === '15'){
-		console.log(systems[chosenSystem]) //displays the array item chosen
-		//Information about the chosen system
-		console.log("This system has been upgraded to .")
-		console.log("Well known games are: ")
-		console.log("The system was introduced to the states in ")
-	}
+}
 }else if(chosenSystem === '0'){	//No system
 	console.log("I am sorry you did not want to know little facts about gaming systems")
 }else{	//requests you make a selection.
-	console.log("Please choose 0-15.")
+	console.log("Please choose 0-8.")
 }
