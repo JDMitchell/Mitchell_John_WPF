@@ -32,6 +32,7 @@ function calcArea(){
 */
 
 //////Video - Function Invocation
+/*
 function outputMsg(){
 	console.log("hello Word")
 }
@@ -44,3 +45,20 @@ function calcArea(){
 }
 
 calcArea(); //calls the function
+*/
+
+//////Video - Variable Scope
+/*
+Learned the difference between gloabl and loca variables
+*/
+
+
+
+
+
+
+
+
+
+
+
