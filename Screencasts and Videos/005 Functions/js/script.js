@@ -82,12 +82,14 @@ console.log(total)
 explains the all the difference the return section makes when creating functions or procedures
 */
 
+//////Video - Anonymous Functions
+var calcArea = function(width, height){	//Anonymous functions must be declared before the call
+	var area = width * height
+	return area;
+}
 
-
-
-
-
-
+var a = calcArea(20, 30)	// invocation
+console.log(a)
 
 
 
