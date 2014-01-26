@@ -54,8 +54,7 @@ Learned the difference between gloabl and loca variables
 
 
 //////Video - Arguments and Parameters
-
-
+/*
 function dogYears(age){
 	
 	var dogYears = age * 7
@@ -64,6 +63,54 @@ function dogYears(age){
 dogYears(4);
 dogYears(5);
 dogYears(6);
+*/
+
+//////Video - Returning Values
+/*
+var total = calcArea(30, 20)
+
+function calcArea(){
+	var area = width * height
+	return area;	// function providing info
+
+}
+console.log(total)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
