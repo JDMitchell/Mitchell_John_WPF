@@ -77,8 +77,10 @@ function calcArea(){
 console.log(total)
 */
 
-
-
+//////Video - Functions vs Procedures
+/*
+explains the all the difference the return section makes when creating functions or procedures
+*/
 
 
 
