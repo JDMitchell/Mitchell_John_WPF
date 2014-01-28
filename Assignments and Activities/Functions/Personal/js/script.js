@@ -20,16 +20,14 @@ var getInfo = function(){
 	var yourIsk = prompt("How much Isk do you have to spend?")
 	console.log(yourIsk)
 	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
+	return incursion;
 	if(incursion === "y" || incursion === "Y"){
-		return incursion;
 		incursions();
 	}else if(incursion === "n" || incursion === "N"){
-		var doYouMine = prompt("Do you mine to make Isk in EVE Online(Y/N)")
-		if(doYouMine === "y" || doYouMine === "Y"){
-			mining();
-		}else{
-			console.log("I cannot help you.")
+		console.log("I hope you mine for a living then.")
 		}
+	}else{
+		console.log("Please choose Y or N")
 	}
 }
 
@@ -61,27 +59,17 @@ var incursions = function(incursion){
 		siteLP = siteLP*0.7
 		siteIsk = siteIsk*0.7
 		console.log("You will recieve " + siteIsk + " Isk and " + siteLP + " LP.")
+	}else{
+		console.log("You don't do incursions.")
 	}
 }
 
 
-var mining = function(){
-	if(doYouMine === "y" || doYouMine === "Y"){
-		var hoursMining = prompt("How many hours a day do you mine?")
-		var estimatedIskMined = prompt("What is the average value of ore mined?")
-		var iskPerHour = estimatedIskMined / hoursMining;
-		console.log("You estimated Isk per hour is " + iskPerHour + ".")
-	}
-}
 
-
-var plexGettingCalculations = function(incursion){
+var plexGettingCalculations = function(incursion, doYouMine){
 	if(incursion === "y" || incursion === "Y"){
 		var sitesNeededRan = plexPricesInGame / siteIsk
 		console.log("You need to run " + sitesNeededRan + " sites to make your isk requirement.")
-	}else if(doYouMine === "y" || doYouMine === "Y"){
-		var hoursNeededMining = plexPricesInGame / iskPerHour
-		console.log("You need to mine for " + hoursNeededMining + " hours to make enough isk for your PLEX.")
 	}
 }
 
