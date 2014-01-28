@@ -21,15 +21,20 @@ var incursion
 var getInfo = function(){
 	var plexPricesInGame = prompt("What is the average price of PLEX on the market?")
 	console.log(plexPricesInGame)
-
+	
+	
 	var plexPriceUSD = prompt("How much does PLEX cost in USD currency?")
 	console.log(plexPriceUSD)
+	
+	
 	var yourIsk = prompt("How much Isk do you have to spend?")
 	console.log(yourIsk)
+	
+	
 	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
-	return incursion;
 	if(incursion === "y" || incursion === "Y"){
 		incursions(incursion);
+		return incursion
 	}else if(incursion === "n" || incursion === "N"){
 		console.log("I hope you mine for a living then.")		
 	}else{
@@ -39,8 +44,8 @@ var getInfo = function(){
 
 
 
-var incursions = function(){
-	console.log(incursion)
+var incursions = function(incursion){
+	console.log()
 	if(incursion === "y" || incursion === "Y"){
 		var sites = ["empty", "scout", "vanguard", "assualt", "headquarters"]
 		var site = prompt("Which of these do you do? \nChoose 1(scouts)-4(headquarters)\n" + sites[1] + ", " + sites[2] + ", " + sites[3] + " or " + sites[4])
@@ -63,12 +68,18 @@ var incursions = function(){
 		}else{
 			console.log("Please choose on of the selected options.\n 1, 2, 3, or 4")
 		}
+		
 		console.log("All sites in high security space pay 70% of the payouts listed.")
+		
 		siteLP = siteLP*0.7
 		siteIsk = siteIsk*0.7
+
 		console.log("You will recieve " + siteIsk + " Isk and " + siteLP + " LP.")
+	
 	}else{
+	
 		console.log("You don't do incursions.")
+	
 	}
 }
 
