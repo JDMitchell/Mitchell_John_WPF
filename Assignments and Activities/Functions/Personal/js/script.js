@@ -22,16 +22,17 @@ var getInfo = function(){
 	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
 	return incursion;
 	if(incursion === "y" || incursion === "Y"){
-		incursions();
+		incursions(incursion);
 	}else if(incursion === "n" || incursion === "N"){
-		console.log("I hope you mine for a living then.")
-		}
+		console.log("I hope you mine for a living then.")		
 	}else{
 		console.log("Please choose Y or N")
 	}
 }
 
-var incursions = function(incursion){
+
+
+var incursions = function(){
 	console.log(incursion)
 	if(incursion === "y" || incursion === "Y"){
 		var sites = ["empty", "scout", "vanguard", "assualt", "headquarters"]
@@ -66,7 +67,7 @@ var incursions = function(incursion){
 
 
 
-var plexGettingCalculations = function(incursion, doYouMine){
+var plexGettingCalculations = function(incursion, plexPricesInGame, siteIsk){
 	if(incursion === "y" || incursion === "Y"){
 		var sitesNeededRan = plexPricesInGame / siteIsk
 		console.log("You need to run " + sitesNeededRan + " sites to make your isk requirement.")
