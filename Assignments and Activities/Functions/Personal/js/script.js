@@ -22,8 +22,8 @@ var incursions = function(){
 	var incursion = prompt("Do you run incursions in EVE online(Y/N)")
 	console.log(incursion)
 	if(incursion === "y" || incursion === "Y"){
-		var sites = [empty, scout, vanguard, assualt, headquarters]
-		console.log(sites)
+		var sites = ["empty", "scout", "vanguard", "assualt", "headquarters"]
+		console.log("Which of these do you do? \n" + sites[1] + "," + sites[2] + "," + sites[3] + "," + sites[4])
 	}
 }
 
