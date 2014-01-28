@@ -74,14 +74,22 @@ var plexGettingCalculations = function(){
 }
 
 
-var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
-	var doYouMine = prompt("Do you mine to make Isk in EVE Online(Y/N)")
-
-
+var main = function(){
+	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
+	if(incursion === "y" || incursion === "Y"){
+		incursions();
+	}else if(incursion === "n" || incursion === "N"){
+		var doYouMine = prompt("Do you mine to make Isk in EVE Online(Y/N)")
+		if(doYouMine === "y" || doYouMine === "Y"){
+			mining();
+		}else{
+			console.log("I cannot help you.")
+		}
+	}
+}
 
 
 
 getInfo();
-incursions();
-mining();
 plexGettingCalculations();
+main();
