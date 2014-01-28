@@ -22,7 +22,6 @@ var getInfo = function(){
 }
 
 var incursions = function(){
-	var incursion = prompt("Do you run incursions in EVE online(Y/N)")
 	console.log(incursion)
 	if(incursion === "y" || incursion === "Y"){
 		var sites = ["empty", "scout", "vanguard", "assualt", "headquarters"]
@@ -53,10 +52,21 @@ var incursions = function(){
 	}
 }
 
-//var plexGettingCalculations = function(){
-	
-//}
+
+var mining = function(){
+	if(doYouMine === "y" || doYouMine === "Y"){
+		var hoursMining = prompt("How many hours a day do you mine?")
+		var estimatedIskMined = prompt("What is the average value of ore mined?")
+		var iskPerHour = estimatedIskMined / hoursMining;
+		console.log("You estimated Isk per hour is " + iskPerHour + ".")
+	}
+}
+
+
+
 
 getInfo();
+
 incursions();
-//plexGettingCalculations();
+mining();
+plexGettingCalculations();
