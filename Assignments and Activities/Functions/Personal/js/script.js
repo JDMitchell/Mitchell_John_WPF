@@ -63,7 +63,15 @@ var mining = function(){
 }
 
 
-
+var plexGettingCalculations = function(){
+	if(incursion === "y" || incursion === "Y"){
+		var sitesNeededRan = plexPricesInGame / siteIsk
+		console.log("You need to run " + sitesNeededRan + " sites to make your isk requirement.")
+	}else if(doYouMine === "y" || doYouMine === "Y"){
+		var hoursNeededMining = plexPricesInGame / iskPerHour
+		console.log("You need to mine for " + hoursNeededMining + " hours to make enough isk for your PLEX.")
+	}
+}
 
 getInfo();
 
