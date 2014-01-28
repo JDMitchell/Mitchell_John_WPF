@@ -33,7 +33,7 @@ var getInfo = function(){
 	
 	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
 	if(incursion === "y" || incursion === "Y"){
-		incursions(incursion);
+		incursions(incursion, plexPricesInGame);
 		return incursion
 	}else if(incursion === "n" || incursion === "N"){
 		console.log("I hope you mine for a living then.")		
@@ -44,7 +44,7 @@ var getInfo = function(){
 
 
 
-var incursions = function(incursion){
+var incursions = function(incursion, plexPricesInGame){
 	console.log()
 	if(incursion === "y" || incursion === "Y"){
 		var sites = ["empty", "scout", "vanguard", "assualt", "headquarters"]
@@ -53,7 +53,6 @@ var incursions = function(incursion){
 			console.log("These provide 50k isk and 50 LP")
 			siteLP = 50;
 			siteIsk = 50000;
-			plexGettingCalculations(incursion, plexPricesInGame, siteIsk)
 		}else if(site === "2"){
 			console.log("These provide 15 million Isk and 2k LP.")
 			siteIsk = 15000000
@@ -76,6 +75,7 @@ var incursions = function(incursion){
 		siteIsk = siteIsk*0.7
 
 		console.log("You will recieve " + siteIsk + " Isk and " + siteLP + " LP.")
+		plexGettingCalculations(plexPricesInGame, siteIsk)
 	
 	}else{
 	
@@ -86,11 +86,12 @@ var incursions = function(incursion){
 
 
 
-var plexGettingCalculations = function(incursion, plexPricesInGame, siteIsk){
-	if(incursion === "y" || incursion === "Y"){
-		var sitesNeededRan = plexPricesInGame / siteIsk
-		console.log("You need to run " + sitesNeededRan + " sites to make your isk requirement.")
-	}
+var plexGettingCalculations = function(plexPricesInGame, siteIsk){
+	var plexPricesInGame
+	var siteIsk
+	var sitesNeededRan = Number(plexPricesInGame) / Number(siteIsk)
+	console.log("You need to run " + sitesNeededRan + " sites to make your isk requirement.")
+	
 }
 
 
@@ -99,4 +100,4 @@ var plexGettingCalculations = function(incursion, plexPricesInGame, siteIsk){
 
 
 getInfo();
-plexGettingCalculations(incursion, plexPricesInGame, siteIsk);
+
