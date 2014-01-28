@@ -53,6 +53,7 @@ var incursions = function(incursion){
 			console.log("These provide 50k isk and 50 LP")
 			siteLP = 50;
 			siteIsk = 50000;
+			plexGettingCalculations(incursion, plexPricesInGame, siteIsk)
 		}else if(site === "2"){
 			console.log("These provide 15 million Isk and 2k LP.")
 			siteIsk = 15000000
@@ -98,4 +99,4 @@ var plexGettingCalculations = function(incursion, plexPricesInGame, siteIsk){
 
 
 getInfo();
-plexGettingCalculations();
+plexGettingCalculations(incursion, plexPricesInGame, siteIsk);
