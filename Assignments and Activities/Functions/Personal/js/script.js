@@ -19,6 +19,17 @@ var getInfo = function(){
 	console.log(plexPriceUSD)
 	var yourIsk = prompt("How much Isk do you have to spend?")
 	console.log(yourIsk)
+	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
+	if(incursion === "y" || incursion === "Y"){
+		incursions();
+	}else if(incursion === "n" || incursion === "N"){
+		var doYouMine = prompt("Do you mine to make Isk in EVE Online(Y/N)")
+		if(doYouMine === "y" || doYouMine === "Y"){
+			mining();
+		}else{
+			console.log("I cannot help you.")
+		}
+	}
 }
 
 var incursions = function(){
@@ -74,19 +85,7 @@ var plexGettingCalculations = function(){
 }
 
 
-var main = function(){
-	var incursion = prompt("Do you run incursions to make Isk in EVE Online(Y/N)")
-	if(incursion === "y" || incursion === "Y"){
-		incursions();
-	}else if(incursion === "n" || incursion === "N"){
-		var doYouMine = prompt("Do you mine to make Isk in EVE Online(Y/N)")
-		if(doYouMine === "y" || doYouMine === "Y"){
-			mining();
-		}else{
-			console.log("I cannot help you.")
-		}
-	}
-}
+
 
 
 
