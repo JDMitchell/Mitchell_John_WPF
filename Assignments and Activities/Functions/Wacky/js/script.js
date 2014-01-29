@@ -10,7 +10,7 @@ var amountChange
 
 
 getInfo();	//puts the function into actin
-balanceCheckBook(change, ammountInBank, amountChange);	//Puts the function into action
+balanceCheckBook(ammountInBank, amountChange);	//Puts the function into action
 
 
 
