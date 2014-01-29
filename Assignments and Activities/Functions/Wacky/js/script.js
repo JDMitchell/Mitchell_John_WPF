@@ -35,18 +35,17 @@ function getInfo(change){	//function for gather information from user
 function balanceCheckBook(ammountInBank, amountChange){	//Does the calculations
 	var change = prompt("Are you adding to your bank account or taking away from?\nUse '+' to add and '-' to subtract.")	//requesting to know the action being done to the account
 	console.log(change)	//prints action being done.
-	var ammountInBank
-	var amountChange
-	function balance(ammountInBank, amountChange){
-		if(change === '-' ){
-			var newAmount = ammountInBank - amountChange;
-			console.log(newAmount);
-		}else if(change === '+'){
-			var newAmount = ammountInBank + amountChange;
-			console.log(newAmount)
-		}else{
-			console.log("Make sure you use '+' or '-'.")
-		}
-	}
+	balance(change, ammountInBank, amountChange);
 }
 
+function balance(change, ammountInBank, amountChange){
+	if(change === '-' ){
+		var newAmount = ammountInBank - amountChange;
+		console.log(newAmount);
+	}else if(change === '+'){
+		var newAmount = ammountInBank + amountChange;
+		console.log(newAmount)
+	}else{
+		console.log("Make sure you use '+' or '-'.")
+	}
+}
